@@ -1,0 +1,530 @@
+  body{
+    /* font-family: Arial, Helvetica, Sans-Serif;
+    #font-size: 15px;
+    line-height: 1.5; */
+    font: 15px/ 1.5 Brandon Grotesque;
+    padding: 0;
+    margin: 0;
+    background-color: #f4eceb;
+  }
+
+  /* colors:
+  #f4eceb, #faf6f5, #d8a7b6, #ac3c64 */
+
+  /* Global */
+  .container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+  }
+
+  .boxcontainerproject{
+    overflow: hidden;
+    background-color: #ffffff;
+    width: 100%;
+  }
+
+  .boxcontainermain{
+    overflow: hidden;
+    background-color: #ac3c64;
+  }
+
+  .boxcontainer{
+    overflow: hidden;
+    background-color: #d8a7b6;
+    width: 100%;
+  }
+
+  .button_1{
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 0;
+    height: 45px;
+    color: #faf6f5;
+    background: #d8a7b6;
+    font-size: 15px;
+    font-weight: lighter;
+    border-radius: 25px;
+  }
+
+  .button_2{
+    margin: 50px 0px 50px 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 0;
+    height: 45px;
+    color: #faf6f5;
+    background: #ac3c64;
+    font-size: 15px;
+    font-weight: lighter;
+    border-radius: 25px;
+  }
+
+  .button_3{
+    margin: 50px 0px 50px 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 2px solid #ac3c64;
+    height: 45px;
+    color: #ac3c64;
+    background: #f4eceb;
+    font-size: 15px;
+    font-weight: lighter;
+    border-radius: 25px;
+  }
+
+  .dark{
+    padding: 16px;
+    background: #f4eceb;
+    color:#ac3c64;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  /* reducing fontweight */
+  h1, h2, h3{
+    font-weight: lighter;
+    color: #ac3c64;
+  }
+
+  ul{
+    padding: 0;
+    margin: 0;
+  }
+
+  /* Header */
+  header{
+    background: #f4eceb;
+    color: #ac3c64;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #ac3c64 3px solid;
+
+  }
+
+  header a{
+    color: #d8a7b6;
+    text-decoration: None;
+    text-transform: uppercase;
+    font-size: 15px;
+  }
+
+  header li{
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+  }
+
+  header #branding{
+    float: left;
+  }
+
+  header #branding h1{
+    margin: 0;
+  }
+
+  header nav{
+    float: right;
+    margin-top: 10px;
+  }
+
+  header .current a{
+    color: #ac3c64;
+    font-weight: bold;
+  }
+
+  header a:hover{
+    color: #cccccc;
+    font-weight: bold;
+  }
+
+  /* showcase */
+  #showcase{
+    min-height: 400px;
+    background: url("../img/showcase.jpg") no-repeat 0px -90px;
+    text-align: center;
+    color: #faf6f5;
+  }
+
+  #showcase h1{
+    margin-top: 100px;
+    font-size: 55px;
+    margin-bottom: 10px;
+    color: #faf6f5;
+  }
+
+  #showcase p{
+    font-size: 20px;
+  }
+
+  /* newsletter */
+  .quote{
+   padding: 40px;
+   color: #ac3c64;
+   background-color: #ffffff;
+   text-align: center;
+   font-size: 25px;
+ }
+
+ .heading{
+  padding: 40px;
+  color: #ac3c64;
+  background-color: #ffffff;
+  text-align: center;
+  font-size: 25px;
+}
+
+ .boxes h3{
+   font-weight: lighter;
+   font-size: 40px;
+   color: white;
+   margin: 80px;
+ }
+
+ .boxes p{
+   font-size: 20px;
+   margin: 80px 80px 80px 80px;
+ }
+
+ .boxes img[src="./img/sust.png"],img[src="./img/cost.png"],img[src="./img/hygiene.png"]{
+   width:100%;
+   margin-top: 100px;
+ }
+
+ .boxes img{
+   width:100%;
+ }
+
+  /* boxes */
+ .boxes .lbox {
+    float: left;
+    width: 50%;
+    text-align: left;
+    color: white;
+    margin: 0;
+  }
+
+  .boxes .rbox {
+    float: right;
+    width: 50%;
+    text-align: left;
+    color: white;
+    margin: 0;
+  }
+
+  #smallbox{
+    float: left;
+    width: 40%;
+    background-color: #ffffff;
+
+  }
+
+  #leftbox{
+    float: left;
+    margin: 200px 0px 170px 100px;
+    background-color: #f4eceb;
+    padding: 20px 20px 20px 50px;
+  }
+
+  #leftbox h1{
+    font-size: 50px;
+  }
+
+  #leftbox li{
+    font-size: 20px;
+  }
+
+  #bigbox{
+    float: right;
+    width: 60%;
+    background-color: #ffffff;
+
+  }
+
+  #rightbox img{
+    margin: 170px 0px 140px 0px;
+    float: left;
+    background-color: #ffffff;
+  }
+
+  #timeboxes {
+    background-color: #ffffff;
+  }
+
+  #timeboxes h1{
+    font-size: 40px;
+    text-align: center;
+  }
+
+  #timeboxes .timebox1 {
+    float: left;
+    width: 30%;
+    padding: 10px;
+    text-align: center;
+    color: black;
+    background-color: #f4eceb;
+    margin-left: 25px;
+    margin-right: 10px;
+    margin-bottom: 50px;
+  }
+
+  #timeboxes .timebox2 {
+    float: left;
+    width: 30%;
+    padding: 10px;
+    padding-bottom: 35px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #d8a7b6;
+    margin-right: 10px;
+    margin-bottom: 50px;
+
+  }
+
+  #timeboxes .timebox3 {
+    float: left;
+    width: 30%;
+    padding: 10px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #ac3c64;
+    margin-right: 10px;
+    margin-bottom: 50px;
+
+  }
+
+  .timebox1 h3{
+    color: black;
+    font-weight: lighter;
+    font-size: 25px;
+    margin-top: 40px;
+  }
+
+  .timebox2 h3, .timebox3 h3{
+    color: white;
+    font-weight: lighter;
+    font-size: 25px;
+    margin-top: 40px;
+  }
+
+  .timebox1 p, .timebox2 p, .timebox3 p{
+    margin-bottom: 50px;
+    font-size: 18px;
+  }
+
+  #budgetbox{
+    float: left;
+    color: #ffffff;
+    width: 50%;
+    margin: 100px 0px 100px 0px;
+  }
+
+  #budgetbox h1{
+    font-size: 50px;
+    color: white;
+    padding-left: 200px;
+  }
+
+  #budgetbox h2{
+    font-size: 30px;
+    color: white;
+    padding-left: 200px;
+  }
+
+  #budgetdescbox{
+    float: right;
+    color: #ffffff;
+    width: 50%;
+    font-size: 20px;
+    text-align: left;
+    margin: 150px 0px 150px 0px;
+  }
+
+  #budgetdescbox ul{
+    padding: 0px 150px 0px 30px;
+  }
+
+  .lboxinsp{
+    float: left;
+    width: 40%;
+  }
+
+  .lboxinsp img{
+    margin-left: 150px;
+  }
+
+  .rboxinsp{
+    float: right;
+    width: 60%;
+    overflow: hidden;
+  }
+
+  .rboxinsp p{
+    font-size: 30px;
+    margin: 100px 100px 100px 100px;
+    font-style: italic;
+    font-weight:lighter;
+  }
+
+  .boxcontainerproject img[src="./img/nightmare.jpeg"]{
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+
+  .boxcontainerproject .l1boxstory{
+    float: left;
+    width: 40%;
+    background-color: #f4eceb;
+    margin: 0px 0px 0px 131px;
+  }
+
+  .boxcontainerproject .r1boxstory{
+    float: right;
+    width: 40%;
+    background-color: #f4eceb;
+    margin: 0px 125px 0px 0px;
+  }
+  .boxcontainerproject .l2boxstory{
+    float: left;
+    width: 40%;
+    background-color: #d8a7b6;
+    margin: 0px 0px 0px 131px;
+  }
+
+  .boxcontainerproject .r2boxstory{
+    float: right;
+    width: 40%;
+    background-color: #d8a7b6;
+    margin: 0px 125px 0px 0px;
+  }
+
+  .l1boxstory h1{
+    font-size: 70px;
+    padding: 0px 0px 614px 50px;
+  }
+
+  .r1boxstory p{
+    font-size: 20px;
+    padding: 20px 20px 0px 20px;
+  }
+
+  .l2boxstory h1{
+    font-size: 70px;
+    padding: 0px 0px 878px 50px;
+    color: #ffffff;
+  }
+
+  .r2boxstory p{
+    font-size: 20px;
+    padding: 20px 20px 0px 20px;
+    color: #ffffff;
+  }
+
+
+
+  #main h1, h3{
+    font-weight: bold;
+  }
+
+  /* sidebar*/
+  aside#sidebar{
+    float: right;
+    width: 30%;
+    margin-top: 10px;
+  }
+
+  aside#sidebar .quote input, aside#sidebar .quote textarea{
+    padding: 5px;
+    width: 90%;
+  }
+
+  /* main-column */
+  article#main-col{
+    float: left;
+    width: 65%;
+    margin-top: 10px;
+  }
+
+  article#main-col h1{
+    color: #ac3c64;
+    font-size: 30px;
+  }
+
+  ul#services li{
+    list-style: None;
+    padding: 20px;
+    border:#cccccc solid 1px;
+    margin-bottom: 5px;
+    background: #e6e6e6;
+  }
+
+ footer {
+   margin-top: 20px;
+   padding: 20px;
+   color: black;
+   background: #f4eceb;
+   text-align: center;
+
+ }
+
+ /* Media Quieries */
+ @media(max-width: 768px){
+   header #branding,
+   header li,
+   header nav,
+   #newsletter h1,
+   #newsletter form,
+   #boxes .box,
+   article#main-col,
+   aside#sidebar,
+   .boxes .lbox,
+   .boxes .rbox,
+   #timeboxes .timebox1,
+   #timeboxes .timebox2,
+   #timeboxes .timebox3,
+   #smallbox,
+   #bigbox,
+   #leftbox,
+   #rightbox,
+   #budgetbox,
+   #budgetdescbox,
+   .rboxinsp,
+   .lboxinsp{
+     float: None;
+     text-align: center;
+     width: 100%;
+     margin: 0;
+     overflow: hidden;
+   }
+
+   header{
+     padding-bottom: 20px;
+   }
+
+   #showcase h1{
+     margin-top: 40px;
+   }
+
+   #newsletter form{
+     margin-bottom: 20px;
+   }
+
+   #newsletter form input[type="email"], .quote input, .quote textarea{
+     width: 100%;
+     margin-bottom: 5px;
+   }
+
+   #newsletter button, .quote button{
+     display: block;
+     width: 100%;
+
+   }
+
+   ul#services li{
+     margin-bottom: 10px;
+   }
+
+
+ }
