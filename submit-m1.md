@@ -9,7 +9,7 @@
 
 **Place an x between the [] after you have completed each step.** (example: [x])
 
-- [] I have checked that each resource included in my submission adheres to the course citation policy. (Since I didn't create the website in 1300 I will be implenting citation policy as I redesign my website.)
+- [x] I have checked that each resource included in my submission adheres to the course citation policy. (Since I didn't create the website in 1300 I will be implenting citation policy as I redesign my website.)
 
     Failure to adhere to the citation policy will result in a deduction for the assignment.
 
