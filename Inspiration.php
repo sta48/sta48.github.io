@@ -1,0 +1,76 @@
+<?php
+include("includes/init.php");
+$Inspiration_current = "class = 'current'";
+?>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width-device-width">
+    <meta name="description" content="MEYE is an international campaign making it possible for women in poverty to have access to low-cost, hygenic, and sustainable menstrual products.">
+    <meta name="keywords" content="Women's Rights Movement, Non-Profit, Menstrual Hygiene, Menstrual Cup, Affordable, Change, menstruation, period, help, donate, girls, education, school, menstrual,">
+    <meta name="author" content="Sayeeda Aishee">
+    <title>Eliminating Menstrual Poverty | MEYE</title>
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+
+  <body>
+
+    <?php include './includes/nav.php';?>
+
+      <section>
+        <div class="boxcontainerproject">
+          <div class="lboxinsp">
+            <!-- Source: (original work) Sayeeda Aishee -->
+            <img src="./img/mypic.png" alt="A picture of the founder">
+          </div>
+          <div class="rboxinsp">
+            <p>Hi! I am Jahin, a student of Cornell University. I started this organization to empower girls who face stigma because of menstruation, so that they can build a successful future without hindrance. Here is a story of my inspiration.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="boxcontainerproject">
+        <!-- Source: http://old.unb.com.bd/special-news/35000-students-at-risk-from-crumbling-school-buildings-in-Laxmipur/73483 -->
+        <img src="./img/nightmare.jpeg" alt="A picture representing the setting of the dream.">
+
+      <section class="boxcontainerstory1">
+          <div class="l1boxstory">
+            <h1>A NIGHTMARE</h1>
+          </div>
+          <div class="r1boxstory">
+            <p>Reddish brown clay kisses the soles of your cracked, bare feet sucking out the last drop of moisture. It’s an open field with luscious banyan trees guarding the borders of safety and an old run-down building with yellow paint peeling off of the walls. As far as your eyes travel clusters of students in half-blue and half-brown garments, the color of the divine-realms and the nether-lands, crowd around you in disgust, awe, and lust. It’s as if earth and divinity together have passed a judgement to banish you to exile. You panic. Adrenaline rushes to your brain. You can no longer think and it’s all up to instinct. You make a run for the building; it’s a safe zone that rundown iron barred cement block. As you run you feel the heaviness of your bare breasts hitting your upper abdomen and the sticky wetness of blood running down your thighs. You are confused, but you know you are an object of shame, an outcast, one that doesn’t deserve safety. As exhaustion tears down your every limb, the building gets farther and farther.
+            </p>
+            <p>Suddenly you are no longer in that field. You are on the door step of your home, a tin bungalow with a spacious veranda enclosed in green iron bars, but the same exhaustion and shame carry on. You try to unlock the door, but it won’t open. You see your parents inside walking around the house, your uncles, aunts, and cousins all going about their day. You yell asking them to let you in as you sink into the floor, but no one listens; they don’t even turn to look at you. You are invisible, an object of shame, one that doesn’t deserve compassion.
+            </p>
+          </div>
+      </section>
+      <section class="boxcontainerstory2">
+          <div class="l2boxstory">
+            <h1>A LIFE</h1>
+          </div>
+          <div class="r2boxstory">
+            <p>I woke up screaming, my mother asked from next room if everything was okay and I replied yes but knew nothing was okay. Through the dimmed incandescent night light, I could see the yellow bed sheets had been stained, ashamed of what I had done, even through the stabbing menstrual cramps, I went to the bathroom to handwash the sheets. After all, having my period at the age of nine, brought my mother a great deal of suffering and my father a great deal of shame. Menstruation, even though is a natural bodily function vital to the process that brings forth new life, is thought of as dirty, something that must be concealed, and never spoken of.</p>
+            <p>I remembered the first time I saw the blood in my underwear, I was worried sick thinking I had cervical cancer. It’s funny how my parents taught me of cervical cancer, but not of the most natural phenomena every woman faces: period. I didn’t understand what was happening. My parents had stopped talking to me. This must be a punishment because I was a bad person – stupid, disobedient, and impious. Why else won’t my parents talk to me, adore me like they once used to, but instead treat me like a burdening outcast.</p>
+            <p>Afraid of further disappointing my parents, I was constantly worried of being unclean. With no one to talk to, as my parents were distant, relatives – uncaring, and friends – too innocent, I locked my thoughts, feelings, and pain deep within. I would stay away from classmates at school as I didn’t want to infect them with my uncleanliness. I was insecure. Any compliments were lies and kindness was pity. I was never content; barred within the green iron bars away from family and yellow cement bricks away from friends, it was as if a part of me died leaving me empty inside. I blamed myself and my body for taking away my blissful childhood.</p>
+          </div>
+      </section>
+      <section class="boxcontainterstory3">
+          <div class="l3boxstory">
+            <h1>A CHANGE</h1>
+          </div>
+          <div class="r3boxstory">
+            <p>Growing up, no longer am I a little girl barred within familial shame, and no longer am I a teenager ashamed of her identity in the narrow scope of the field lined with banyan trees that mark the seemingly infinite power of societal stigma. Don’t get me wrong, shame to a certain extent on certain subjects is good. On a societal account it brings us humility. You should be ashamed of yourself, if you hurt, steal from, or oppress another. But in the case of a natural phenomenon shame is a societal stigma deemed to oppress women and keep them from speaking up. I know because for a long time, I never spoke up – about the pain, the self-hate, or the emptiness. I have, with experience and some open-minded, compassionate friends learned to walk past all the self-hate, but a girl should never have to be ashamed, or hate herself for something she can’t control.</p>
+            <p>To all the girls in the countries, where oppression of women is masked as societal values, your body is your body. Societal stigmas exist, but no one but you can judge yourself unclean, or imperfect. If not for yourself, then for all the young girls suffering from lack of mensuration resources, and agonizing from body-hate and shame, speak up. If not with your story, they will never learn self-value, or confidence. They will never speak up cowering within the barred prison cells of societal oppression, and the cycle of shame will continue. Thus, speak up as with your story, you will mark the turning point where girls will no longer be victims of societal stigma; they will no longer bear the mark of shame. They will wake from their eternal nightmares and emerge as powerful beings who transform the world.</p>
+          </div>
+      </section>
+      </section>
+
+      <footer>
+      <?php include './includes/footer.php';?>
+      Photo Sources: <cite>
+        <a href="http://old.unb.com.bd/special-news/35000-students-at-risk-from-crumbling-school-buildings-in-Laxmipur/73483">Unites News Bangladesh</a>
+      </cite>
+      </footer>
+  </body>
+</html>

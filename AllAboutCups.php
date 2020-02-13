@@ -1,3 +1,7 @@
+<?php
+include("includes/init.php");
+$AllAboutCups_current = "class = 'current'";
+?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
@@ -11,21 +15,8 @@
   </head>
 
   <body>
-      <header>
-        <div class="container">
-          <div id="branding">
-            <h1><img src="./img/meyelogo.png" alt="Meye Logo"> Meye</h1>
-          </div>
-          <nav>
-            <ul>
-              <li><a href="index.html">Home</a></li>
-              <li class="current"><a href="AllAboutCups.html">All About Cups</a></li>
-              <li><a href="TheProject.html">The Project</a></li>
-              <li><a href="Inspiration.html">Inspiration</a></li>
-            </ul>
-          </nav>
-        </div>
-      </header>
+
+    <?php include './includes/nav.php';?>
 
       <section class="heading">
         <div class="container">
@@ -36,7 +27,8 @@
       <section class="boxes">
         <div class="boxcontainer">
           <div class="lbox">
-            <img src="./img/cost.png" alt="Diagram showing menstrual statistics in different countries.">
+            <!-- Source: https://www.instyle.com/beauty/menstrual-cup-editor-tested -->
+            <img src="./img/cost.png" alt="Picture of menstrual cups on a hand.">
           </div>
           <div class="rbox">
             <h3>COST EFFECTIVE</h3>
@@ -48,7 +40,8 @@
       <section class="boxes">
         <div class="boxcontainer">
             <div class="rbox">
-              <img src="./img/sust.png" alt="Diagram showing menstrual statistics in different countries.">
+              <!-- Source: https://www.information-age.com/sustainable-tech-earth-123477343/ -->
+              <img src="./img/sust.png" alt="A glass globe on a bed of greenery.">
             </div>
             <div class="lbox">
             <h3>SUSTAINABLE</h3>
@@ -60,7 +53,8 @@
       <section class="boxes">
         <div class="boxcontainer">
           <div class="lbox">
-            <img src="./img/hygiene.png" alt="Diagram showing menstrual statistics in different countries.">
+            <!-- Source: https://www.airliquide.com/healthcare/hygiene -->
+            <img src="./img/hygiene.png" alt="A hand reaching for soap.">
           </div>
           <div class="rbox">
             <h3>EASY HYGIENE</h3>
@@ -71,12 +65,17 @@
 
       <section class="heading">
         <div class="container">
-          <button onclick="window.location.href = 'https://www.gofundme.com/f/Help-Bangladeshi-Girls-Get-The-Rights-They-Deserve';" class="button_2">Make a Difference</button>
+          <button class="button_2">Make a Difference</button>
         </div>
       </section>
 
       <footer>
-        <p>MEYE, Copyright &copy; 2020</p>
+        <?php include './includes/footer.php';?>
+        Photo Sources: <cite>
+            <a href="https://www.instyle.com/beauty/menstrual-cup-editor-tested">InStyle,</a>
+            <a href="https://www.information-age.com/sustainable-tech-earth-123477343/">InformationAge,</a>
+            <a href="https://www.airliquide.com/healthcare/hygiene">AirLiquide</a>
+        </cite>
       </footer>
   </body>
 </html>

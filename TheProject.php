@@ -1,3 +1,6 @@
+<?php
+include("includes/init.php");
+$TheProject_current = "class = 'current'";?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
@@ -11,21 +14,8 @@
   </head>
 
   <body>
-      <header>
-        <div class="container">
-          <div id="branding">
-            <h1><img src="./img/meyelogo.png" alt="Meye Logo"> Meye</h1>
-          </div>
-          <nav>
-            <ul>
-              <li><a href="index.html">Home</a></li>
-              <li><a href="AllAboutCups.html">All About Cups</a></li>
-              <li class="current"><a href="TheProject.html">The Project</a></li>
-              <li><a href="Inspiration.html">Inspiration</a></li>
-            </ul>
-          </nav>
-        </div>
-      </header>
+
+    <?php include './includes/nav.php';?>
 
       <section>
         <div id="boxcontainerproject">
@@ -36,12 +26,13 @@
                   <li>Distribute menstrual cups to more than 1000 public school girls and women living in slums of Bangladesh</li>
                   <li>Hold workshops for the public in Bangladesh to raise awareness about periods and elevate stigmas.</li>
                 </ol>
-                <button onclick="window.location.href = 'https://www.gofundme.com/f/Help-Bangladeshi-Girls-Get-The-Rights-They-Deserve';" class="button_3">Make a Difference</button>
+                <button class="button_3">Make a Difference</button>
               </div>
           </div>
           <div id="bigbox">
             <div id= rightbox>
-              <img src="./img/proj.jpeg" alt="Diagram showing menstrual statistics in different countries.">
+              <!-- Source: https://www.mariondurand.com/ -->
+              <img src="./img/proj.jpeg" alt="A picture of girls in school uniform.">
             </div>
         </div>
       </div>
@@ -83,7 +74,9 @@
 
 
       <footer>
-        <p>MEYE, Copyright &copy; 2020</p>
+        <?php include './includes/footer.php';?>
+        Photo Sources:<cite> <a href="https://www.mariondurand.com/#/feminist-school/">Marion Durand</a>
+        </cite>
       </footer>
   </body>
 </html>
