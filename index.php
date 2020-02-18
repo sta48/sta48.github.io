@@ -21,7 +21,7 @@ $index_current = "class = 'current'";
   <section id="showcase">
         <div class="container">
           <h1>TRANSFORMING LIVES ONE PERIOD AT A TIME</h1>
-          <button class="button_1">Make a Difference Today</button>
+          <a class="button_1" href="https://www.gofundme.com/f/Help-Bangladeshi-Girls-Get-The-Rights-They-Deserve">Make a Difference Today</a>
         </div>
   </section>
 

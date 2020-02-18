@@ -26,7 +26,7 @@ $TheProject_current = "class = 'current'";?>
                   <li>Distribute menstrual cups to more than 1000 public school girls and women living in slums of Bangladesh</li>
                   <li>Hold workshops for the public in Bangladesh to raise awareness about periods and elevate stigmas.</li>
                 </ol>
-                <button class="button_3">Make a Difference</button>
+                <a class="button_3" href="https://www.gofundme.com/f/Help-Bangladeshi-Girls-Get-The-Rights-They-Deserve">Make a Difference</a>
               </div>
           </div>
           <div id="bigbox">

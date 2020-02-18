@@ -1,1 +1,1 @@
-<p>MEYE, Copyright &copy; 2020</p>
+<p>MEYE, Copyright &copy; <?php echo date("Y"); ?></p>

@@ -50,6 +50,7 @@
     font-weight: lighter;
     border-radius: 25px;
     margin-top: 20px;
+    text-decoration: None;
   }
 
   .button_2{
@@ -63,6 +64,7 @@
     font-size: 15px;
     font-weight: lighter;
     border-radius: 25px;
+    text-decoration: None;
   }
 
   .button_3{
@@ -76,6 +78,7 @@
     font-size: 15px;
     font-weight: lighter;
     border-radius: 25px;
+    text-decoration: None;
   }
 
   .button_4{
@@ -89,6 +92,7 @@
     font-size: 15px;
     font-weight: normal;
     border-radius: 25px;
+    text-decoration: None;
   }
 
   .dark{
@@ -263,7 +267,7 @@
     float: left;
     margin: 200px 0px 170px 100px;
     background-color: #f4eceb;
-    padding: 20px 20px 20px 50px;
+    padding: 20px 20px 60px 50px;
   }
 
   #leftbox h1{
@@ -614,11 +618,7 @@
    header #branding,
    header li,
    header nav,
-   #newsletter h1,
-   #newsletter form,
    #boxes .box,
-   article#main-col,
-   aside#sidebar,
    .boxes .lbox,
    .boxes .rbox,
    #timeboxes .timebox1,
@@ -647,24 +647,6 @@
      margin-top: 40px;
    }
 
-   #newsletter form{
-     margin-bottom: 20px;
-   }
-
-   #newsletter form input[type="email"], .quote input, .quote textarea{
-     width: 100%;
-     margin-bottom: 5px;
-   }
-
-   #newsletter button, .quote button{
-     display: block;
-     width: 100%;
-
-   }
-
-   ul#services li{
-     margin-bottom: 10px;
-   }
 
 
  }

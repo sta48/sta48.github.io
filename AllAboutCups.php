@@ -65,7 +65,7 @@ $AllAboutCups_current = "class = 'current'";
 
       <section class="heading">
         <div class="container">
-          <button class="button_2">Make a Difference</button>
+          <a class="button_2" href="https://www.gofundme.com/f/Help-Bangladeshi-Girls-Get-The-Rights-They-Deserve">Make a Difference</a>
         </div>
       </section>
 

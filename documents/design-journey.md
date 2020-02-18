@@ -7,21 +7,17 @@ Be clear and concise in your writing. Bullets points are encouraged.
 ## Existing Design, Planning, & Refined Design (Milestone 1)
 
 ### Existing Site: Target Audience I (Milestone 1)
-> Who is your _existing_ site's target audience?
-
-The general public that may be interested in donating to nonprofit organizations.
+Affluent Women, who empathize with the problem of menstruation, thus would be interested in helping those who lack basic neccessities when it comes to its management. This audience has enough resources to want to do philanthropic work, and since this is a problem they have personally been through, they will be willing to donate to the cause specifically.
 
 ### Existing Site: Target Audience I Needs (Milestone 1)
-> Document your existing site's target audience's needs.
-> List each need below. There is no specific number of needs required for this, but you need enough to do the job.
 
 - Need #1: Information
   - **Need**
-    - > What does your existing target audience need?
+    - What does your existing target audience need?
     - Information about what the non-profit is trying to solve and a gist of what they will do to solve it.
 
   - **Design Choices**
-    - > How does your existing site meet this need?
+    - How does your existing site meet this need?
     - Home page provides infomation about the lack of menstrual resources in developing countries, how it is negatively affecting people's lives, and how the non-profit will go about solving this problem.
 
   - **Need**
@@ -37,19 +33,19 @@ The general public that may be interested in donating to nonprofit organizations
     - The All About Cups page gives the three most important criteria that this solution addresses and feasibly solves to convince the audience that this is the best solution for the problem.
 
   - **Need**
-    - How one can go about donating
+    - How one can go about donating?
 
   - **Design Choices**
-    - Buttons appear throughout most of the pages that ask the audience to take action and leads them to a donation page.
+    - Buttons appear throughout most of the pages that ask the audience to take action and leads them to an external donation page.
 
   - **Need**
-   - What will happen to their money once they have donated(how will it be used)
+   - What will happen to their money once they have donated(how will it be used)?
 
   - **Design Choices**
     - The Project Page includes a block of Budget information explaning exactly how the donations will be used.
 
   - **Need**
-  - Why is the non profit working on this problem
+  - Why is the non profit working on this problem?
 
   - **Design Choices**
     - The Inspiration page writes a short story that allows to audience to empathize with the victims of this problem and understand the urgency of it.
@@ -58,34 +54,42 @@ The general public that may be interested in donating to nonprofit organizations
     - Who is working at the non-profit to solve the problem
 
   - **Design Choices**
-    - The Inspiration page also gives information about the founder of the non-profit and why she is interested in solving the problem thus gaining more trust from the audience.
+    - The Inspiration page also gives information about the founder of the non-profit and why she is interested in solving the problem. This allows the audience to see behind the organization and provides an insight into the poeple working to make things happen thus gaining more trust.
 
+ - Need #2: Statistics.
   - **Need**
     - Statistics about the solution and the problem.
 
   - **Design Choices**
-    - Embedded into each of the text areas throughout the site.
+    - Embedded into each of the text areas throughout the site, so that people can easily grasp the gravity of the problem and the effectiveness of the solution.
 
-- Need #2: Navigation
+- Need #3: Navigation
   - **Need**
     - A way to go to the different pages and easily manuever between them.
 
   - **Design Choices**
     - The navigation bar is implemented for this need. It highlights the page the user is currently on thus making it easier for them to understand where they are on the site.
 
-- Need #3: Fast Information
+- Need #4: Fast Information
   - **Need**
     - The user who doesn't have a lot of time but is still interested in the non-profit needs to gather information fast and be convinced to donate.
 
   - **Design Choices**
     - Showcase areas, big quotes, and header are used to help guide the user to find the information they think is important as fast as possible.
 
-- Need #4: Aesthetically Pleasing
+- Need #5: Aesthetically Pleasing
   - **Need**
     - The user needs to feel invited to the website to be convinced to donate.
 
   - **Design Choices**
     - Pictures are used throughout the website, so that users don't get bored reading lots of text. The color scheme of the website is consistent throughout the different pages and to the purpose of the non-profit so that the user can feel immeresed into the subject.
+
+Need #6: Timeline
+  - **Need**
+    - The audince should have an idea of when the goals of the non-profit will be accomplished.
+
+  - **Design Choices**
+    - A feature describing blocks of time and goals that will be accomplished within the frame is highlighted in The Project page.
 
 
 ### Existing Site: Design/Sketches (Milestone 1)
@@ -97,21 +101,20 @@ The general public that may be interested in donating to nonprofit organizations
 
 ![Skectches of the Third and Fourth page with description.](3rdand4th.jpg)
 
-The description of each page is next to the sketches.
+The description of each page is next to the sketch.
 
 ### Refined Site: Target Audience II (Milestone 1)
 > Who is your additional/secondary target audience?
 
-Corporate businesses who may interested in donating products or services.
+Corporate businesses who may interested in donating products or services. This audience is more focused on companies like Diva Cup, Luna Cup, or menstrual product companies.
 
 ### Refined Site: Target Audience II Needs (Milestone 1)
-> Document target audience II's needs.
-> List each need below. There is no specific number of needs required for this, but you need enough to do the job.
 
 - Need #1: Corporate Invitation
   - **Need**
     - > What does your target audience II need?
     - Information about how businesses can benefit from donating.
+
   - **Design Ideas and Choices**
     - > How will you refine your site's design to meet this need?
     - An information box listing ways of corporate involvement and how they can benefit from it.
@@ -119,18 +122,21 @@ Corporate businesses who may interested in donating products or services.
 - Need #2: Contact form
   - **Need**
     - A way to contact the non-profit to either find out more information or donate products.
+
   - **Design Ideas and Choices**
     - A form to submit from the website to contact the non-profit directly.
 
 - Need #3: Sponsor Advertisement
   - **Need**
     - A feature that shines light on businesses that donated so they can get more exposure.
+
   - **Design Ideas and Choices**
     - An advertisement area listing the companies that helped, information about their mission, and a link to thier site.
 
 - Need #4: Solution Usage
   - **Need**
     - To inform how to use the solution implemented
+
   - **Design Ideas and Choices**
     - A feature, maybe pictures, a video, or a list explaning how to use the solution.
 
@@ -170,7 +176,7 @@ Corporate businesses who may interested in donating products or services.
 
 > Next, organize the content for both target audiences. Document your card sorting by taking a photo and including it here.
 
-![Card Sorting for target audience 1 and 2.](./cardsort2.jpg)
+![Card Sorting for target audience 1 and 2.](./cardsort3.jpg)
 
 > Lastly, list the pages that resulted from your final card sort (i.e. your site's navigation).
 
@@ -188,11 +194,11 @@ Corporate businesses who may interested in donating products or services.
 > Document your _entire_ design process. **Show your preliminary sketches and your final sketches.**
 > Don't forget the form and confirmation page!
 
-![Sketches of final design of 1st and 2nd page with description.](./final1stand2nd.jpg)
+![Sketches of final design of 1st and 2nd page with description.](./Sketch1.jpg)
 
-![Sketches of final design of 3rd and 4th page with description.](./final3rdand4th.jpg)
+![Sketches of final design of 3rd and 4th page with description.](./Sketch2.jpg)
 
-![Sketches of final design of last page with description.](./finallast.jpg)
+![Sketches of final design of last page with description.](./Sketch3.jpg)
 
 The description of each page is next to the sketches.
 
@@ -201,9 +207,9 @@ The description of each page is next to the sketches.
 > Using your refined sketches, plan your site's partials.
 > You may describe each partial or sketch it. It's up to you!
 
-Since the navigation bar shows up in every page it will be implemented using partial.
+Since the navigation bar shows up in every page it will be implemented using a partial. It will include the name of the organization, as well as links to every page in the website.
 
-Also the footer shows up on every page, thus it will also be implemented using a footer.
+Also the footer includes copyright information that is shown is every page, so that will be implemented using a partial.
 
 ---
 
@@ -211,6 +217,7 @@ Also the footer shows up on every page, thus it will also be implemented using a
 
 ### Sticky Form (Milestone 2)
 > What controls do you need for your form?
+
 
 
 > Plan out your feedback messages for your form. You may sketch (probably the easiest) or write it out.
