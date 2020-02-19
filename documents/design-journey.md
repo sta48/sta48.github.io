@@ -221,7 +221,7 @@ In order to collect the proper information from the audience, we must know at le
 
 > Plan out your feedback messages for your form. You may sketch (probably the easiest) or write it out.
 
-![Sketche of the form with the input fields.](./form.jpg)
+![Sketch of the form with the input fields.](./form.jpg)
 
 - The Name input will allow text and will be validated to see if it is a string.
 
@@ -231,19 +231,20 @@ In order to collect the proper information from the audience, we must know at le
 
 - The Messege input will also be a text field and validated using string.
 
+- A field for Date and Radio Buttons to differentiate between the target audience members(Corporate Sponsor and Indpendent Individual) will be added.
 
-![Sketches of final design of last page with description.](./formsketch.jpg)
+![Sketch of the form with error Messeges.](./formsketch.jpg)
 
 - All of the inputs will be required for the form to be submitted, otherwise error messeges will be shown.
 
-![Sketches of final design of last page with description.](./confirmation.jpg)
+![Sketch of the confirmation page.](./confirmation.jpg)
 
 - If all the inputs are correct, the confirmation page is shown.
 
 
 > How does this form meet the needs of at least one of your target audiences (specify which)?
 
-This form is mostly for any corporate sponsors who may want to donate products or services. Since this process can get a little complicated, it's best for the company to contact the organization directly to communicate how to proceed. The form only has four inputs to make it quick and easy for the the corporate representative get in contact, while also recieving critical information about the company.
+This form is mostly for any corporate sponsors who may want to donate products or services. Since this process can get a little complicated, it's best for the company to contact the organization directly to communicate how to proceed. The form only has four inputs to make it quick and easy for the the corporate representative get in contact, while also recieving critical information about the company. The date and the radio buttons will help the organization keep all the contact messeges organized.
 
 
 ### Validation Code Plan (Milestone 2)
