@@ -25,7 +25,7 @@
 
     Your assignment's **submission time** is the time of your **last push** and _not_ the time of your last commit (the dates next to commits in GitHub).
 
-- [] I am ready to have my assignment graded.
+- [x] I am ready to have my assignment graded.
 
 **Sign your name and include today's date and time to submit the FINAL SUBMISSION.**
 

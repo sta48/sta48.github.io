@@ -1,4 +1,5 @@
 <?php
+// Initializes the page, and creates variables for the form and navigation bar
 include("includes/init.php");
 $Sponsors_current = "class = 'current'";
 $show_form = TRUE;
@@ -8,10 +9,11 @@ $show_email_feedback = FALSE;
 $show_phone_feedback = FALSE;
 $show_messege_feedback = FALSE;
 
-
+// Checks if all the required inputs have been filled out and filters inputs, if all inputs filled out confirmation page is shown, otherwise error messeges are shown
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
   $is_form_valid = TRUE;
 
+  // All the variables for each of the inputs are assigned and sanitized
   $dob= filter_input(INPUT_POST, 'dob', FILTER_SANITIZE_STRING);
   $choice= filter_input(INPUT_POST, 'choice', FILTER_SANITIZE_STRING);
 
@@ -42,6 +44,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
   $show_form = !$is_form_valid;
 }
 ?>
+<!-- Beggining of the Sponsors Page -->
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
@@ -81,6 +84,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             </div>
          </section>
 
+        <!-- Beginning of the Form -->
          <section id="form">
               <div class= "container">
                 <div id= "formlbox">
@@ -98,6 +102,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                                 <input type= "text" name="name" placeholder="Mary Jane"value = <?php echo htmlspecialchars($name);?> >
                                 </div>
                             </div>
+                            <!-- error messege -->
                             <?php if($show_name_feedback){
                             echo "<p class='form_feedback'>Please provide your Full Name!</p>";
                             }?>
@@ -108,6 +113,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                                 <input type="email" name="email" placeholder="example@company.com" value = <?php echo htmlspecialchars($email);?>>
                                 </div>
                             </div>
+                            <!-- error messege -->
                             <?php if($show_email_feedback){
                             echo "<p class='form_feedback'>Please provide a valid email address!</p>";
                             }?>
@@ -118,6 +124,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                                 <input type= "tel" name="phone" placeholder="xxxxxxxxxx" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" value=<?php echo htmlspecialchars($phone);?> >
                                 </div>
                             </div>
+                            <!-- error messege -->
                             <?php if($show_phone_feedback){
                             echo "<p class='form_feedback'>Please provide a valid phone number without any spaces!</p>";
                             }?>
@@ -143,6 +150,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                                 <textarea type="text" name="messege" placeholder="Type your comments or concerns here."value=<?php echo htmlspecialchars($messege);?>></textarea>
                                 </div>
                             </div>
+                            <!-- error messege -->
                             <?php if($show_messege_feedback){
                             echo "<p class='form_feedback'>Please provide a brief description.</p>";
                             }?>
@@ -152,6 +160,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                         </form>
 
                     <?php } else { ?>
+                      <!-- Confirmation page outputs all selections -->
                         <div id="confirmation">
                             <h2> Thank You For Contacting Us <?php echo htmlspecialchars($name)?>! </h2>
                             <p>Here is the information you provided:</p>
@@ -169,6 +178,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
               </div>
         </section>
 
+      <!-- The footer of the Sponsors page -->
       <footer>
       <?php include './includes/footer.php';?>
         Photo Sources: <cite>
