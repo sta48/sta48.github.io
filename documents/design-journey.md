@@ -161,8 +161,6 @@ Corporate businesses who may interested in donating products or services. This a
 - Corporate Invitation
 - Navigation
 - Contact Form
-- Advertisement Feature
-- Solution Usage
 
 
 > Organize the content for the target audience and identify possible pages for the content using card sorting.
@@ -198,7 +196,7 @@ Corporate businesses who may interested in donating products or services. This a
 
 ![Sketches of final design of 3rd and 4th page with description.](./Sketch2.jpg)
 
-![Sketches of final design of last page with description.](./Sketch3.jpg)
+![Sketches of final design of last page and confirmation page with description.](./Sketch3.jpg)
 
 The description of each page is next to the sketches.
 
@@ -218,19 +216,49 @@ Also the footer includes copyright information that is shown is every page, so t
 ### Sticky Form (Milestone 2)
 > What controls do you need for your form?
 
+In order to collect the proper information from the audience, we must know at least their full name, email, phone number and their comments or concerns.
 
 
 > Plan out your feedback messages for your form. You may sketch (probably the easiest) or write it out.
 
+![Sketche of the form with the input fields.](./form.jpg)
+
+- The Name input will allow text and will be validated to see if it is a string.
+
+- The Phone input will be type integer and will be validated using conditional statements.
+
+- The email will be type email and validated to see if it is string.
+
+- The Messege input will also be a text field and validated using string.
+
+
+![Sketches of final design of last page with description.](./formsketch.jpg)
+
+- All of the inputs will be required for the form to be submitted, otherwise error messeges will be shown.
+
+![Sketches of final design of last page with description.](./confirmation.jpg)
+
+- If all the inputs are correct, the confirmation page is shown.
+
 
 > How does this form meet the needs of at least one of your target audiences (specify which)?
+
+This form is mostly for any corporate sponsors who may want to donate products or services. Since this process can get a little complicated, it's best for the company to contact the organization directly to communicate how to proceed. The form only has four inputs to make it quick and easy for the the corporate representative get in contact, while also recieving critical information about the company.
 
 
 ### Validation Code Plan (Milestone 2)
 > Write out your pseudocode plan for handling the validation of the form.
 
 ```
-WRITE YOUR PSEUDOCODE HERE
+Creat a form with correct types of fields in the form.
+
+Get the inputs.
+
+If an input is wrong(check using validation functions or conditional statements), provide an error messege that corresponds to that input in the same page near the input, so that users know what to change.
+
+Make sure to that the inputs are sitcky so that the user doesn't have to repeatedly type the inputs.
+
+If all the inputs are correct, show confirmation messege.
 ```
 
 ---
@@ -240,10 +268,23 @@ WRITE YOUR PSEUDOCODE HERE
 ### Target Audiences (Final Submission)
 > Tell us how your final site meets the needs of the target audiences. Be specific here. Tell us how you tailored your design, content, etc. to make your website usable by both target audiences.
 
+For both target audiences, the first page works as an attention grabber with latge statistics, big quotes, a summary of the problem, and the solution the organization asking help for. It also directs them to an external link where they can donate if they are convinced.
+
+For anyone seeking detailed information about the solution, the All About Cups page provides a concise reasoning for why the solution is the best for the problem.
+
+For the affluent women who like to be more informed and feel connected to the organizations they donate to, The Project page provides details of the specific goals that will be accomplished and when and the Inspiration page provides an insight into the organizations founder and the reason she is so invested into the problem.
+
+To cater to the Corporate businesses, the navigation bar indicates a Sponsors page that they can get to from the home page. This is done so that, if they want to get involved but don't have too much time to dive deep into the organization, they can quickly go to the sponsors page and submit the contact form.
+
+
+
 
 ### Additional Design Justifications (Final Submission)
 > If you feel like you haven’t fully explained your design choices in the final submission, or you want to explain some functions in your site (e.g., if you feel like you make a special design choice which might not meet the final requirement), you can use the additional design justifications to justify your design choices. Remember, this is place for you to justify your design choices which you haven’t covered in the design journey. You don’t need to fill out this section if you think all design choices have been well explained in the design journey.
 
+Instead of having a separate page for the confirmation, I decided to do it within the form block, as there wasn't enough information to create a whole new page for. Creating a new page would just waste space, so including a confirmation messege within the form block also minimizes clutter within the website.
 
 ### Self-Reflection (Final Submission)
 > Reflect on what you learned during this assignment. How have you improved from 1300? What things did you have trouble with?
+
+Creating a new website and going through the design process really gave me an insight into the minute details that you have to take into consideration when designing a website. A lot of times, without the design process, one can get carried away with features and texts they want to include in a website. The design process reigns in that run-on sense of thinking and makes the website concise and efficient. It induces the sense that the website is for the audience not the creator. Thus, instead of glamorous or complex features, the most efficient way to get information across is the best.

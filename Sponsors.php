@@ -10,7 +10,7 @@ $show_messege_feedback = FALSE;
 
 $name = '';
 $email = '';
-$phone = 1000000000;
+$phone = '';
 $messege = '';
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
@@ -94,32 +94,32 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                         <form class="form" method="post" action="Sponsors.php" novalidate>
 
                             <div>
-                                <label>Name</label><br>
-                                <input type= "text" name="name" value = <?php echo htmlspecialchars($name);?> >
+                                <label>Full Name</label><br>
+                                <input type= "text" name="name" placeholder="Mary Jane"value = <?php echo htmlspecialchars($name);?> >
                             </div>
                             <?php if($show_name_feedback){
-                            echo "<p class='form_feedback'>Please provide a name!</p>";
+                            echo "<p class='form_feedback'>Please provide your Full Name!</p>";
                             }?>
 
                             <div>
                                 <label> Email</label><br>
-                                <input type="email" name="email" value = <?php echo htmlspecialchars($email);?>>
+                                <input type="email" name="email" placeholder="example@company.com" value = <?php echo htmlspecialchars($email);?>>
                             </div>
                             <?php if($show_email_feedback){
-                            echo "<p class='form_feedback'>Please provide a valid email!</p>";
+                            echo "<p class='form_feedback'>Please provide a valid email address!</p>";
                             }?>
 
                             <div>
                                 <label> Phone Number</label><br>
-                                <input type= integer name="phone" min="1000000000" value=<?php echo htmlspecialchars($phone);?> >
+                                <input type= tel name="phone" placeholder="xxxxxxxxxx" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" value=<?php echo htmlspecialchars($phone);?> >
                             </div>
                             <?php if($show_phone_feedback){
-                            echo "<p class='form_feedback'>Please provide a valid phone number!</p>";
+                            echo "<p class='form_feedback'>Please provide a valid phone number without any spaces!</p>";
                             }?>
 
                             <div>
-                                <label> Message</label><br>
-                                <input type="text" name="messege" value=<?php echo htmlspecialchars($messege);?>>
+                                <label> How can we help?</label><br>
+                                <input type="text" name="messege" placeholder="Type your comments or concerns here."value=<?php echo htmlspecialchars($messege);?>>
                             </div>
                             <?php if($show_messege_feedback){
                             echo "<p class='form_feedback'>Please provide a brief description.</p>";

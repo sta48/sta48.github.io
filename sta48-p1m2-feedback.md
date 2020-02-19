@@ -27,10 +27,10 @@ We provide feedback on your milestones to help guide your work for the final sub
 - [] Includes sufficient pseudocode that another 2300 student could implement the validation/feedback of the sticky form..
 
 > What did the student do well?
-- the form works and is sticky. It also requires valid email address and phone number.  
+- the form works and is sticky. It also requires valid email address and phone number.
 
 > What needs improvement?
-- You did not complete your milestone 2 design journey. 
+- You did not complete your milestone 2 design journey.
 
 **Planning: Sticky Form:  0/ 5 points** _(no partial credit)_
 
