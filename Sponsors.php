@@ -8,27 +8,26 @@ $show_email_feedback = FALSE;
 $show_phone_feedback = FALSE;
 $show_messege_feedback = FALSE;
 
-$name = '';
-$email = '';
-$phone = '';
-$messege = '';
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
   $is_form_valid = TRUE;
 
-  $name = trim($_POST['name']);
+  $dob= filter_input(INPUT_POST, 'dob', FILTER_SANITIZE_STRING);
+  $choice= filter_input(INPUT_POST, 'choice', FILTER_SANITIZE_STRING);
+
+  $name = filter_input(INPUT_POST, 'name', FILTER_SANITIZE_STRING);
   if (empty($name) == TRUE) {
     $is_form_valid = FALSE;
     $show_name_feedback = TRUE;
   }
 
-  $email = trim($_POST['email']);
+  $email = filter_input(INPUT_POST, 'email', FILTER_SANITIZE_STRING);
   if (filter_var($email, FILTER_VALIDATE_EMAIL) == FALSE) {
     $is_form_valid = FALSE;
     $show_email_feedback = TRUE;
   }
 
-  $messege = trim($_POST['messege']);
+  $messege = filter_input(INPUT_POST, 'messege', FILTER_SANITIZE_STRING);
   if (empty($messege) == TRUE) {
     $is_form_valid = FALSE;
     $show_messege_feedback = TRUE;
@@ -94,32 +93,55 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                         <form class="form" method="post" action="Sponsors.php" novalidate>
 
                             <div>
-                                <label>Full Name</label><br>
+                                <label>Full Name</label>
+                                <div>
                                 <input type= "text" name="name" placeholder="Mary Jane"value = <?php echo htmlspecialchars($name);?> >
+                                </div>
                             </div>
                             <?php if($show_name_feedback){
                             echo "<p class='form_feedback'>Please provide your Full Name!</p>";
                             }?>
 
                             <div>
-                                <label> Email</label><br>
+                                <label> Email</label>
+                                <div>
                                 <input type="email" name="email" placeholder="example@company.com" value = <?php echo htmlspecialchars($email);?>>
+                                </div>
                             </div>
                             <?php if($show_email_feedback){
                             echo "<p class='form_feedback'>Please provide a valid email address!</p>";
                             }?>
 
                             <div>
-                                <label> Phone Number</label><br>
-                                <input type= tel name="phone" placeholder="xxxxxxxxxx" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" value=<?php echo htmlspecialchars($phone);?> >
+                                <label> Phone Number</label>
+                                <div>
+                                <input type= "tel" name="phone" placeholder="xxxxxxxxxx" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" value=<?php echo htmlspecialchars($phone);?> >
+                                </div>
                             </div>
                             <?php if($show_phone_feedback){
                             echo "<p class='form_feedback'>Please provide a valid phone number without any spaces!</p>";
                             }?>
 
                             <div>
-                                <label> How can we help?</label><br>
-                                <input type="text" name="messege" placeholder="Type your comments or concerns here."value=<?php echo htmlspecialchars($messege);?>>
+                              <label> Choose One</label>
+                              <div id="radio">
+                              <input type="radio" name="choice" value="Company Associate"> <p>Company Associate</p>
+                              <input type="radio" name="choice" value="Independent Individual"> <p>Independent Individual</p>
+                             </div>
+                            </div>
+
+                            <div>
+                              <label> Date</label>
+                              <div>
+                              <input type="date" name="dob" value=<?php echo htmlspecialchars($dob);?>/>
+                             </div>
+                            </div>
+
+                            <div>
+                                <label> How can we help?</label>
+                                <div>
+                                <textarea type="text" name="messege" placeholder="Type your comments or concerns here."value=<?php echo htmlspecialchars($messege);?>></textarea>
+                                </div>
                             </div>
                             <?php if($show_messege_feedback){
                             echo "<p class='form_feedback'>Please provide a brief description.</p>";
@@ -131,9 +153,16 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
                     <?php } else { ?>
                         <div id="confirmation">
-                            <h2> Thank You For Contacting Us! </h2>
-                            <p> We'll get back to you as soon as possible </p>
-
+                            <h2> Thank You For Contacting Us <?php echo htmlspecialchars($name)?>! </h2>
+                            <p>Here is the information you provided:</p>
+                            <ul>
+                              <li>Phone Number: <?php echo htmlspecialchars($phone)?></li>
+                              <li>Email: <?php echo htmlspecialchars($email)?></li>
+                              <li>Choice: <?php echo htmlspecialchars($choice)?></li>
+                              <li>Date: <?php echo htmlspecialchars($dob)?></li>
+                              <li>Messege: <?php echo htmlspecialchars($messege)?></li>
+                             </ul>
+                            <p> We'll get back to you as soon as possible. </p>
                             <p><a href="Sponsors.php">Resubmit</a></p>
                         </div>
                     <?php } ?>

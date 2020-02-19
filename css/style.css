@@ -180,7 +180,7 @@
     font-size: 20px;
   }
 
-  /* sponsor howcase */
+  /* sponsor showcase */
   #sponsorshowcase{
     min-height: 400px;
     /* Source: https://www.shutterstock.com/image-vector/hygiene-elements-seamless-pattern-on-pink-404305711 */
@@ -546,6 +546,10 @@
     width: 100%;
   }
 
+  #form ::placeholder{
+    color: #cccccc;
+  }
+
   #formlbox{
     float: left;
     width: 50%;
@@ -566,6 +570,7 @@
     float: right;
     width: 50%;
     margin: 50px 0px 50px 0px;
+    padding-bottom: 40px;
   }
 
   #formrbox label{
@@ -581,6 +586,13 @@
     background-color: #ac3c64;
     border: 2px solid #ffffff;
     color: #ffffff;
+  }
+
+  #radio{
+    color: #ffffff;
+    font-size: 18px;
+    padding: 0px;
+    margin: 0;
   }
 
  footer {
@@ -613,6 +625,13 @@
     color: #ffffff;
   }
 
+  #confirmation ul{
+    padding: 20px 50px 20px 100px;
+    color: #ffffff;
+    list-style: none;
+    font-size: 20px;
+  }
+
  /* Media Quieries */
  @media(max-width: 768px){
    header #branding,
@@ -624,19 +643,111 @@
    #timeboxes .timebox1,
    #timeboxes .timebox2,
    #timeboxes .timebox3,
-   #smallbox,
    #bigbox,
-   #leftbox,
    #rightbox,
-   #budgetbox,
-   #budgetdescbox,
    .rboxinsp,
-   .lboxinsp{
+   .lboxinsp,
+   #sponsorshowcase,
+   .rboxspons,
+   .lboxspons,
+   #formlbox,
+   #formrbox,
+   #formrbox textarea,
+   .r1boxstory,
+   .l1boxstory,
+   .r2boxstory,
+   .l2boxstory,
+   .r3boxstory,
+   .l3boxstory{
      float: None;
      text-align: center;
      width: 100%;
      margin: 0;
      overflow: hidden;
+   }
+
+  /* Project Page */
+   #budgetbox h1, #budgetbox h2{
+    float: None;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    padding-left: 50%;
+   }
+
+   #budgetdescbox{
+    float: None;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+   }
+
+   #budgetdescbox ul{
+    float: None;
+    text-align: center;
+    width: 80%;
+    margin: 0;
+    padding: 0px 80px 80px 80px;
+   }
+
+   #smallbox, #leftbox{
+    float: None;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+   }
+
+   #leftbox ol{
+    float: None;
+    text-align: center;
+    width: 80%;
+    margin: 0;
+    overflow: hidden;
+    padding-bottom: 10%;
+   }
+
+   /* Sponsor Page */
+   #sponsorshowcase{
+    float: None;
+    margin: 0;
+    width: 100%;
+    overflow: hidden;
+    padding:0;
+    background: url("../img/sponsor2.jpg") no-repeat;
+    min-height: 600px;
+   }
+
+   .containerspons h1{
+     padding: 0% 10% 10% 10%;
+     text-align: center;
+   }
+
+   .lboxspons img{
+    float: None;
+    margin: 0;
+    width: 100%;
+    overflow: hidden;
+    padding:0;
+   }
+
+   .rboxspons h2{
+    float: None;
+    text-align: center;
+    margin: 0;
+    width: 100%;
+    overflow: hidden;
+    padding-top: 10%;
+   }
+
+   .rboxspons ul{
+    float: None;
+    text-align: center;
+    margin: 0;
+    overflow: hidden;
+    padding: 20%;
    }
 
    header{
