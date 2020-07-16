@@ -1,7 +1,3 @@
-<?php
-include("includes/init.php");
-$index_current = "class = 'current'";
-?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
@@ -16,7 +12,23 @@ $index_current = "class = 'current'";
 
   <body>
 
-  <?php include './includes/nav.php';?>
+  <header>
+        <div class="container">
+          <div id="branding">
+            <h1><img src="./img/meyelogo.png" alt="Meye Logo"> Meye</h1>
+          </div>
+          <nav>
+            <ul>
+              <li class="current"><a href="index.php">Home</a></li>
+              <li><a href="AllAboutCups.php">All About Cups</a></li>
+              <li><a href="TheProject.php">The Project</a></li>
+              <li><a href="Inspiration.php">Inspiration</a></li>
+              <li><a href="Sponsors.php">Sponsors</a></li>
+            </ul>
+          </nav>
+        </div>
+  </header>
+
 
   <section id="showcase">
         <div class="container">
@@ -58,7 +70,7 @@ $index_current = "class = 'current'";
       </section>
 
       <footer>
-        <?php include './includes/footer.php';?>
+        <p>MEYE, Copyright &copy; 2020</p>
         Photo Sources: <cite>
             <a href="https://www.brookings.edu/blog/education-plus-development/2017/07/27/cycling-to-success-a-road-to-empowerment-for-rural-girls-in-india/">Brookings,</a>
             <a href="https://chaaipani.com/menstrual-cup/">Chaaipani</a>
