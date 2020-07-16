@@ -38,7 +38,7 @@
 
   .boxcontainerproject{
     overflow: hidden;
-    background-color: ##d8a7b6;
+    background-color: #d8a7b6;
     width: 100%;
   }
 
@@ -79,7 +79,8 @@
   .button_1:hover{
     transform:scale(.975);
     opacity:.85;
-    transition-duration: .1s;
+    transition: all .15s ease-in-out;
+    font-weight: normal;
   }
 
   /* .button_2{
