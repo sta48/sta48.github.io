@@ -42,6 +42,12 @@
     width: 100%;
   }
 
+  .hboxcontainerproject{
+    overflow: hidden;
+    background-color: white;
+    width: 100%;
+  }
+
   .boxcontainermain{
     overflow: hidden;
     background-color: #ffffff;
@@ -622,7 +628,7 @@ padding:40px;
 
   }
 
-  .boxcontainerproject img[src="./img/nightmare.jpeg"]{
+  .hboxcontainerproject img[src="./img/nightmare.jpeg"]{
     width:80%;
     margin-left: auto;
     margin-right: auto;
