@@ -353,13 +353,13 @@
   color: #ac3c64;
   font-style: italic;
   transition: all .2s ease-in-out;
-  font-size: 50px;
+  font-size: 30px;
 }
 
 .call_to_action a:hover{
   text-decoration: none;
-  padding: 80px;
-  font-size: 51px;
+  padding: 20px;
+  font-size: 31px;
   color: white;
   background-color: #ac3c64;
   border: 2px solid #ac3c64;
