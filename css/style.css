@@ -219,6 +219,7 @@
 
   header #branding h1{
     margin: 0;
+    font-style: Pirata One;
   }
 
   header nav{
@@ -311,12 +312,6 @@
   font-size: 35px;
   font-family: brandon grotesque;
 }
-
- .quote h1:hover{
-  transform: scale(1.1);
-  transition-duration: .2s;
-}
-
 
 .connect{
   padding: 20px;
