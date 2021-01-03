@@ -69,15 +69,14 @@
 
   .button_1{
     font-family: raleway;
+    font-size: 15px;
     padding-left: 20px;
     padding-right: 20px;
     margin: 5px 5px 5px 5px;
     border: 0;
     height: 45px;
-    color: #faf6f5;
-    background: #ac3c64;
-    font-size: 15px;
-    font-weight: lighter;
+    color: white;
+    background-image: linear-gradient(to top, #4A182A 0%, #ac3c64 100%);
     border-radius: 25px;
     margin-top: 20px;
     text-decoration: None;
@@ -86,9 +85,7 @@
 
   .button_1:hover{
     transform:scale(.975);
-    opacity:.85;
     transition: all .15s ease-in-out;
-    font-weight: normal;
   }
 
   /* .button_2{
@@ -194,23 +191,23 @@
   header{
     background: #ffffff;
     color: #ac3c64;
-    padding-top: 30px;
+    padding-top: 20px;
+    padding-bottom: 10px;
     min-height: 70px;
     border-bottom: #ffffff 3px solid;
 
   }
 
   header a{
-    color: #d8a7b6;
+    color: #D87996;
     text-decoration: None;
-    text-transform: uppercase;
-    font-size: 15px;
+    font-size: 17px;
   }
 
   header li{
     float: left;
     display: inline;
-    padding: 0 20px 0 20px;
+    padding: 20px 20px 0 20px;
   }
 
   header #branding{
@@ -219,7 +216,12 @@
 
   header #branding h1{
     margin: 0;
-    font-style: Pirata One;
+    font-style: italic;
+    font-weight: 100;
+  }
+
+  #branding img{
+    padding-top: 5px;
   }
 
   header nav{
@@ -245,6 +247,10 @@
     background: url("../img/showcase.jpg") no-repeat 0px -90px;
     text-align: center;
     color: #faf6f5;
+  }
+
+  #showcase img{
+
   }
 
   #showcase h1{
@@ -290,10 +296,9 @@
  }
 
  .quote h1{
-   padding-bottom: 50px;
-   padding-top: 20px;
-   font-size: 50px;
-   transition: all .2s ease-in-out;
+   padding-bottom: 10px;
+   font-size: 40px;
+
  }
 
  .lquote{
@@ -406,12 +411,13 @@ padding:40px;
     color: black;
     margin: 0;
     font-family: brandon grotesque;
+    min-height: 650px;
   }
 
   .boxes .lbox h3{
-    font-weight: 600;
+    font-weight: 400;
     font-style: italic;
-    color: #ac3c64;
+    color: black;
   }
 
   .boxes .lbox a{
@@ -433,12 +439,22 @@ padding:40px;
     color: black;
     margin: 0;
     font-family: brandon grotesque;
+    
+  }
+
+  .boxes .rbox img{
+    width: 75%;
+    text-align: center;
+    display: block;
+    margin: auto;
+    padding-top: 50px;
   }
 
   .boxes .rbox h3{
-    font-weight: 600;
+    font-weight: 400;
     font-style: italic;
-    color: #ac3c64;
+    color: black;
+    
   }
 
   #smallbox{
