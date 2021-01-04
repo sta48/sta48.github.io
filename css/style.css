@@ -1,3 +1,25 @@
+  @font-face
+  {
+    font-family: Raleway;
+    src:url('./doc/raleway/Raleway-Black.ttf'),
+        url('./doc/raleway/Raleway-BlackItalic.ttf'),
+        url('./doc/raleway/Raleway-Bold.ttf'),
+        url('./doc/raleway/Raleway-BoldItalic.ttf'),
+        url('./doc/raleway/Raleway-ExtraBold.ttf'),
+        url('./doc/raleway/Raleway-ExtraBoldItalic.ttf'),
+        url('./doc/raleway/Raleway-ExtraLight.ttf'),
+        url('./doc/raleway/Raleway-ExtraLightItalic.ttf'),
+        url('./doc/raleway/Raleway-Italic.ttf'),
+        url('./doc/raleway/Raleway-Light.ttf'),
+        url('./doc/raleway/Raleway-LightItalic.ttf'),
+        url('./doc/raleway/Raleway-Medium.ttf'),
+        url('./doc/raleway/Raleway-MediumItalic.ttf'),
+        url('./doc/raleway/Raleway-Regular.ttf'),
+        url('./doc/raleway/Raleway-SemiBold.ttf'),
+        url('./doc/raleway/Raleway-SemiBoldItalic.ttf'),
+        url('./doc/raleway/Raleway-Thin.ttf'),
+        url('./doc/raleway/Raleway-ThinItalic.ttf');
+  }
   body{
     /* font-family: Arial, Helvetica, Sans-Serif;
     #font-size: 15px;
@@ -341,8 +363,8 @@
 .call_to_action{
   padding: 40px;
   background-color: #ffffff;
-  text-align: center;  
-  
+  text-align: center;
+
 
 }
 
@@ -425,13 +447,8 @@ padding:40px;
   .boxes .lbox a{
     text-decoration: none;
     font-style: italic;
+    color: black;
 
-  }
-
-  .boxes .lbox a:hover{
-    text-decoration: none;
-    font-size: 21px;
-    transition: all .1s ease-in-out;
   }
 
   .boxes .rbox {
@@ -440,8 +457,7 @@ padding:40px;
     text-align: left;
     color: black;
     margin: 0;
-    font-family: brandon grotesque;
-    
+
   }
 
   .boxes .rbox img{
@@ -464,7 +480,7 @@ padding:40px;
     font-weight: 400;
     font-style: italic;
     color: black;
-    
+
   }
 
   #smallbox{
